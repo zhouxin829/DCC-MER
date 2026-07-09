@@ -316,16 +316,3 @@ The scripts also accept a GPU id argument and set `CUDA_VISIBLE_DEVICES` interna
 - Each run should have an isolated `run_dir` so that checkpoints and pseudo labels do not overlap.
 - Report mean and standard deviation over multiple seeds. The summary scripts output table-ready statistics from saved run artifacts.
 
-## Citation
-
-If this repository is useful for your work, please cite the paper:
-
-```bibtex
-@article{dccmer2026,
-  title   = {DCC-MER: Diffusion-Inspired Calibrated Consensus Learning for Multimodal Emotion Recognition},
-  author  = {Anonymous},
-  journal = {Knowledge-Based Systems},
-  year    = {2026}
-}
-```
-
