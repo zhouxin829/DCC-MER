@@ -4,9 +4,9 @@ Official implementation scaffold for **DCC-MER: Diffusion-Inspired Calibrated Co
 
 DCC-MER is a multimodal emotion recognition framework for learning reliable cross-modal consensus. The implementation contains the three main modules used in the paper:
 
-- **TPLR**: timestep-aware pseudo-label refinement.
-- **PCRP**: progressive consensus refinement with perturbation.
-- **RCCR**: reliability-calibrated consensus regularization.
+- **TPLR**
+- **PCRP**
+- **RCCR**
 
 This `github/` folder is prepared as a release-ready GitHub package. When publishing the code, place this README, `environment.yml`, `requirements.txt`, and the `scripts/` directory at the same repository level as `dcc_main.py`, `src/`, `dcc_best_config.py`, and `dcc_multiseed_tools/`.
 
