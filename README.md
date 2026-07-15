@@ -188,13 +188,13 @@ bash scripts/run_all_5seeds.sh "$DATA_PATH" runs/dcc_all_5runs 0 SIMS,MOSI,MOSEI
 Default seeds:
 
 ```text
-3328683074,4136559363,1686802513,2124692648,964165003
+3328683074、1974074723、1686464603
 ```
 
 Override the seed list:
 
 ```bash
-SEEDS=3328683074,4136559363,1686802513 \
+SEEDS=3328683074,1974074723,1686464603 \
 bash scripts/run_all_5seeds.sh "$DATA_PATH" runs/dcc_all_3runs 0 SIMS,MOSI
 ```
 
@@ -303,7 +303,7 @@ All shell wrappers support these environment variables:
 ```bash
 PYTHON=python
 PROJECT_DIR=/path/to/DCC-MER
-SEEDS=3328683074,4136559363,1686802513
+SEEDS=3328683074,1974074723,1686464603
 CUDA_VISIBLE_DEVICES=0
 ```
 
